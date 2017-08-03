@@ -1,0 +1,46 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Index</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/game.css' %}">
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+      <style>
+      .game{
+        text-align: center;
+        padding-top: 25px
+      }
+      .my-nav-bar{
+        border-style: groove;
+        border-color: darkgray;
+      }
+      p{
+        text-align: right;
+        padding-right: 20px;
+        padding-top: 15px;
+        font-size: 20px;
+      }
+      </style>
+        <div class="page-header">
+            <h1><a href="/">The Buzz</a></h1>
+        </div>
+
+        <ul class="my-nav-bar">
+          <li><a href="/">Home</a></li>
+          <li><a href="/game/">Game</a></li>
+          <li><a href="/facts/">Facts</a></li>
+          <li><a href="/howtohelp/">How To Help</a></li>
+          <li><a href="/credits/">About Us</a></li>
+        </ul>
+        <div class="game">
+          <object type="application/x-shockwave-flash" id="" data="http://cdn.fastswf.com/files/hMguvSU/hMguvSU.swf?AWSAccessKeyId=AKIAIWTOYM4XXIVL5IGQ&amp;Expires=1501696182&amp;Signature=1BK6dxD438Qnd1Zgk%2FMgZIca7aQ%3D" width="640" height="480"><param name="menu" value="false"><param name="scale" value="noScale"><param name="allowFullscreen" value="true"><param name="allowScriptAccess" value="never"><param name="bgcolor" value=""><param name="wmode" value="direct"></object>
+        </div>
+        <p>Created With Stencyl</p>
+        <h3><a href="/" class="home-button">Go back home</a></h3>
+    </body>
+</html>

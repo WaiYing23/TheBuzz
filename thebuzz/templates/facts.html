@@ -1,0 +1,84 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Facts</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/facts.css' %}">
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+      <style>
+      .fact-text{
+        font-size: 17px;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-bottom: 15px;
+        padding-top: 30px;
+      }
+      .facts-text{
+        font-size: 17px;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 10px;
+      }
+      .fact-title{
+        text-align: center;
+        padding-bottom: 10px;
+      }
+      .center{
+        text-align: center;
+        padding-bottom: 15px;
+      }
+      .fact-image{
+        padding-top: 25px;
+      }
+      .fact-link{
+        text-align: center;
+      }
+      .fact-link a{
+        color: black;
+        font-size: 14px;
+      }
+      .my-nav-bar{
+        border-style: groove;
+        border-color: darkgray;
+      }
+      </style>
+        <div class="page-header">
+            <h1><a href="/">The Buzz</a></h1>
+        </div>
+
+        <ul class="my-nav-bar">
+          <li><a href="/">Home</a></li>
+          <li><a href="/game/">Game</a></li>
+          <li><a href="/facts/">Facts</a></li>
+          <li><a href="/howtohelp/">How To Help</a></li>
+          <li><a href="/credits/">About Us</a></li>
+        </ul>
+
+        <div class="center">
+          <h1 class="fact-title">Facts</h1>
+          <a href="https://www.seedpaperpromo.com/save-the-bees-infographic/" target="_blank"><img src="http://www.seedpaperpromo.com/v1_1/wp-content/uploads/2016/02/Save-Bees-infographic-Seed-Paper-Promotions-header-2-980x450.jpg" style="width:740px;height:280px;"></a>
+          <div class="fact-text"<h2>The bee problem is something that not everyone is aware of, but it is a very serious problem that will harm us in the future if we don’t take action now. The bee population started declining decades ago, but it started declining at a noticeable pace around 2005. People didn’t start bringing attention to this issue until around 2011. The main cause for this problem is pesticides that are used on plants and crops where bees go to pollinate. The problem is that the bees are dying at an alarming rate, and without them, everyday foods will start to run short.</h2> </div>
+            <h1 class="fact-title">Why We Need To Act Now</h1>
+            <div class="facts-text"<h2>Many people think that a bee’s only purpose is to make honey, but their purpose is way more important than “just making honey.” Bees are pollinators, meaning that they help plants make fruits or produce seeds. According to the NRDC, “More than $15 billion a year in U.S. crops are pollinated by bees... U.S. honey bees also produce about $150 million in honey annually” (NRDC). As you can see, not only do bee’s help produce many fruits, veggies, and seeds that we consume daily but they also help the agricultural industry. Without the bees, we could be looking at a future without major things like apples, mangos, flaxseed, avocados, and the list goes on.</h2><div>
+              <div class="fact-image">
+                <a href="https://www.honeycolony.com/article/national-pollinator-week-kicks-off/" target="_blank"><img src="http://lonermagazine.com/wp-content/uploads/2015/08/bee-infographic.jpg" width="500px" height="400px"></a>
+                <a href="https://www.fix.com/blog/creating-a-bee-friendly-garden/" target="_blank"><img src="https://www.fix.com/assets/content/15461/bee-friendly-garden-01.png" width="250px" height="400px"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      <h1 class="fact-title">Credits</h1>
+      <div class="fact-link">
+        <p><a href="https://honeylove.org/list-of-food/">https://honeylove.org/list-of-food/</a></p>
+        <p><a href="https://www.nrdc.org/sites/default/files/bees.pdf">https://www.nrdc.org/sites/default/files/bees.pdf</a></p>
+        <p><a href="https://www.treehugger.com/sustainable-agriculture/bees-peril-timeline.html">https://www.treehugger.com/sustainable-agriculture/bees-peril-timeline.html</a></p>
+      </div>
+      <h3><a href="/" class="home-button">Go back home</a></h3>
+
+    </body>
+</html>

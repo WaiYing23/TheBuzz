@@ -1,0 +1,83 @@
+
+.center {
+    text-align: center;
+}
+
+.page-header {
+    background-color: #ffff99;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: black;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+h1 a{
+  font-family:'Lobster', cursive;
+  padding-left: 15px;
+}
+body {
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    font-size: 35px;
+    font-family: Georgia, serif;
+}
+
+h2{
+}
+h3 {
+    color: black;
+    font-size: 200%;
+}
+
+h3 a {
+  color: black;
+  font-size: 70%;
+  padding-left: 15px;
+  font-family: Georgia, serif;
+}
+h4 {
+    color: black;
+    font-size: 200%;
+}
+
+p{
+  font-size: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: ffff00;
+}
+
+.my-nav-bar {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 2%;
+}
+
+li {
+    float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ffffb3;
+}
+
+.home-button {
+  color: black;
+}
