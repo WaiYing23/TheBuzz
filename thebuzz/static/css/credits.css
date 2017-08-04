@@ -97,7 +97,10 @@ li a:hover, .dropdown:hover .dropbtn {
   text-align: left;
   float: left;
   font-size: 17px;
+<<<<<<< HEAD
   /*text-align: center;*/
+=======
+>>>>>>> d3b39e09a8c761a3fe9a96aad6c157247feb7d3d
 }
 
 .home-button {
